@@ -9,7 +9,6 @@ object ApiClient {
     private var retrofit: Retrofit? = null
 
     val retrofitInstance: Retrofit?
-        // Singleton pattern to create only one instance of Retrofit
         get() {
             if (retrofit == null) {
                 retrofit = Retrofit.Builder()

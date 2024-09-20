@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<List<DataModel>> call, Response<List<DataModel>> response) {
                 if (response.isSuccessful()) {
                     List<DataModel> data = response.body();
-                    // Handle data (e.g., update UI)
                 }
             }
 
